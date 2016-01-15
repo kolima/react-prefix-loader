@@ -2,7 +2,7 @@
   "name": "react-prefix-loader",
   "version": "0.1.0",
   "description": "Webpack loader that prefixes classes in React components",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "prepublish": "babel --optional runtime src --out-dir lib",
     "postpublish": "rm -rf lib",
